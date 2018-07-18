@@ -86,7 +86,7 @@ The module `Numeric.LinearAlgebra.Sparse` contains the user interface.
 
 ### Creation of sparse data
 
-The `fromListSM` function creates a sparse matrix from a collection of its entries in (row, column, value) format. This is its type signature:
+The `fromListSM` function creates a sparse matrix using a collection of its entries in (row, column, value) format. This is its type signature:
 
     fromListSM :: Foldable t => (Int, Int) -> t (IxRow, IxCol, a) -> SpMatrix a
 
